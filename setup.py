@@ -18,7 +18,7 @@ URL = 'https://github.com/labhackercd/lab-text-processing'
 EMAIL = 'matheus.souza.fernandes@gmail.com'
 AUTHOR = 'msfernandes'
 REQUIRES_PYTHON = '>=3'
-VERSION = '0.1.0'
+VERSION = '0.1.1'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
@@ -116,11 +116,6 @@ setup(
         'Programming Language :: Python',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.6',
-        'Text Processing',
-        'Text Processing :: Filters',
-        'Text Processing :: General',
-        'Text Processing :: Indexing',
-        'Text Processing :: Linguistic',
     ],
     # $ setup.py publish support.
     cmdclass={
