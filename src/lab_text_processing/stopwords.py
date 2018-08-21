@@ -15,7 +15,7 @@ def simplify_tag(tag):
 
 
 @lru_cache()
-def default_stopwords():
+def default_stopwords(valid_tags=('adj', 'n')):
     twords = floresta.tagged_words()
     stopwords = nltk.corpus.stopwords.words('portuguese')
     stopwords += ['srs', 'sr', 'sras', 'sra', 'deputado', 'presidente',
@@ -52,7 +52,6 @@ def default_stopwords():
                   'diretora', 'possível', 'atenção', 'agradeço', 'naquele',
                   'necessárias', 'presidenta', 'compromisso']
 
-    valid_tags = ['adj', 'n']
     for (word, tag) in twords:
         tag = simplify_tag(tag)
         words = word.casefold().split('_')

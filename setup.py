@@ -18,7 +18,7 @@ URL = 'https://github.com/labhackercd/lab-text-processing'
 EMAIL = 'matheus.souza.fernandes@gmail.com'
 AUTHOR = 'msfernandes'
 REQUIRES_PYTHON = '>=3'
-VERSION = '0.1.1'
+VERSION = '0.2.0'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
